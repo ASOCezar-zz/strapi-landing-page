@@ -1,0 +1,24 @@
+import * as Styled from './styles';
+import PropTypes from 'prop-types';
+import { Menu } from '../../components/Menu';
+import { Footer } from '../../components/Footer';
+import { GoTop } from '../../components/GoTop';
+
+export const Base = ({ links, logoData, footerHtml, children }) => {
+  return (
+    <>
+      <Menu links={links} logoData={logoData} />
+      <Styled.Container>
+        {children}
+        <Footer html={footerHtml} />
+      </Styled.Container>
+      <GoTop />
+    </>
+  );
+};
+
+Base.propTypes = {
+  children: PropTypes.node.isRequired,
+  ...Menu.propTypes,
+  footerHtml: PropTypes.string.isRequired,
+};

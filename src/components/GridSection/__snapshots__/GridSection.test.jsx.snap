@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridSection /> Should render a grid component and match with snapshot 1`] = `
+.c4 {
+  color: #0A1128;
+  font-size: 5.6rem;
+  text-transform: uppercase;
+}
+
+.c9 {
+  color: #0A1128;
+  font-size: 3.2rem;
+  text-transform: none;
+}
+
+.c6 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c2 .c5 {
+  margin-bottom: 2.4rem;
+}
+
+.c7 {
+  counter-reset: grid-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 3.2rem;
+}
+
+.c8 .c3 {
+  position: relative;
+  left: 5rem;
+}
+
+.c8 .c3:before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 5.6rem;
+  top: -2rem;
+  left: -5rem;
+  -webkit-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 .c3 {
+    left: 3.1rem;
+  }
+}
+
+<div
+  class="c0"
+  id=""
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3 c4"
+      >
+        My Grid
+      </h2>
+      <div
+        class="c5 c6"
+      >
+        Description Grid
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h3
+            class="c3 c9"
+          >
+            Title 1
+          </h3>
+          <div
+            class="c5 c6"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <div
+          class="c8"
+        >
+          <h3
+            class="c3 c9"
+          >
+            Title 2
+          </h3>
+          <div
+            class="c5 c6"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        <div
+          class="c8"
+        >
+          <h3
+            class="c3 c9"
+          >
+            Title 3
+          </h3>
+          <div
+            class="c5 c6"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridSection /> Should render a grid component and match with snapshot 2`] = `
+.c4 {
+  color: #0A1128;
+  font-size: 5.6rem;
+  text-transform: uppercase;
+}
+
+.c9 {
+  color: #0A1128;
+  font-size: 3.2rem;
+  text-transform: none;
+}
+
+.c6 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c2 .c5 {
+  margin-bottom: 2.4rem;
+}
+
+.c7 {
+  counter-reset: grid-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 3.2rem;
+}
+
+.c8 .c3 {
+  position: relative;
+  left: 5rem;
+}
+
+.c8 .c3:before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 5.6rem;
+  top: -2rem;
+  left: -5rem;
+  -webkit-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 .c3 {
+    left: 3.1rem;
+  }
+}
+
+<div
+  class="c0"
+  id=""
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3 c4"
+      >
+        My Grid
+      </h2>
+      <div
+        class="c5 c6"
+      >
+        Description Grid
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h3
+            class="c3 c9"
+          >
+            Title 1
+          </h3>
+          <div
+            class="c5 c6"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <div
+          class="c8"
+        >
+          <h3
+            class="c3 c9"
+          >
+            Title 2
+          </h3>
+          <div
+            class="c5 c6"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        <div
+          class="c8"
+        >
+          <h3
+            class="c3 c9"
+          >
+            Title 3
+          </h3>
+          <div
+            class="c5 c6"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

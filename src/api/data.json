@@ -1,0 +1,579 @@
+[
+  {
+    "_id": "610db2d0deedc1785c85339b",
+    "Title": "Landing Page",
+    "slug": "landing-page",
+    "published_at": "2021-08-06T22:08:32.556Z",
+    "sections": [
+      {
+        "__component": "section.section-two-columns",
+        "_id": "610db2d0deedc1785c85339c",
+        "title": "JANUARY BRINGS US FIREFOX 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "metadata": {
+          "background": true,
+          "_id": "610db2d1deedc1785c85339d",
+          "name": "Home",
+          "section_id": "home",
+          "__v": 0,
+          "id": "610db2d1deedc1785c85339d"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "610db151ed819171f47a0eba",
+          "name": "image1.svg",
+          "alternativeText": "Desenho de pessoas segurando logo de CSS3, HTML5 e JavaScript",
+          "caption": "",
+          "hash": "image1_837c210874",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.31,
+          "url": "https://res.cloudinary.com/asocezar/image/upload/v1628287311/image1_837c210874.svg",
+          "provider_metadata": {
+            "public_id": "image1_837c210874",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1030,
+          "height": 730,
+          "related": [
+            "610f0a4ccf5cfdb240052fe7"
+          ],
+          "createdAt": "2021-08-06T22:01:53.751Z",
+          "updatedAt": "2021-08-07T22:33:49.515Z",
+          "__v": 0,
+          "id": "610db151ed819171f47a0eba"
+        },
+        "id": "610db2d0deedc1785c85339c"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "610dd5c95310a76b80275696",
+        "title": "NEWS COVERAGE AND SOME SURPRISES",
+        "content": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs. We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries. We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>",
+        "metadata": {
+          "background": false,
+          "_id": "610dd5c95310a76b80275697",
+          "name": "intro",
+          "section_id": "intro",
+          "__v": 0,
+          "id": "610dd5c95310a76b80275697"
+        },
+        "__v": 1,
+        "id": "610dd5c95310a76b80275696"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "610dd064a0854e3db8dc2c50",
+        "title": "My-grid",
+        "description": "my-grid",
+        "text_grid": [
+          {
+            "_id": "610dd064a0854e3db8dc2c52",
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "610dd064a0854e3db8dc2c52"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c53",
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "610dd064a0854e3db8dc2c53"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c54",
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "610dd064a0854e3db8dc2c54"
+          }
+        ],
+        "image_grid": [],
+        "__v": 1,
+        "metadata": {
+          "background": true,
+          "_id": "610dd28c311247723cf4a208",
+          "name": "grid-one",
+          "section_id": "grid-one",
+          "__v": 0,
+          "id": "610dd28c311247723cf4a208"
+        },
+        "id": "610dd064a0854e3db8dc2c50"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "610dd064a0854e3db8dc2c51",
+        "title": "Gallery",
+        "description": "lorem ipsum",
+        "text_grid": [],
+        "image_grid": [
+          {
+            "_id": "610dd064a0854e3db8dc2c55",
+            "__v": 0,
+            "image": {
+              "_id": "610dced8a0854e3db8dc2c4f",
+              "name": "photo_2.jfif",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "photo_2_ca79d1362f",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 27.16,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/photo_2_ca79d1362f.jpg",
+              "provider_metadata": {
+                "public_id": "photo_2_ca79d1362f",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_photo_2.jfif",
+                  "hash": "thumbnail_photo_2_ca79d1362f",
+                  "ext": ".jfif",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 6.14,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/thumbnail_photo_2_ca79d1362f.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_photo_2_ca79d1362f",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-08-07T00:07:52.607Z",
+              "updatedAt": "2021-08-07T00:16:53.433Z",
+              "__v": 0,
+              "id": "610dced8a0854e3db8dc2c4f"
+            },
+            "id": "610dd064a0854e3db8dc2c55"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c56",
+            "__v": 0,
+            "image": {
+              "_id": "610dced8a0854e3db8dc2c4e",
+              "name": "photo_4.jfif",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "photo_4_caab5af251",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 25.01,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/photo_4_caab5af251.jpg",
+              "provider_metadata": {
+                "public_id": "photo_4_caab5af251",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_photo_4.jfif",
+                  "hash": "thumbnail_photo_4_caab5af251",
+                  "ext": ".jfif",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 7.03,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/thumbnail_photo_4_caab5af251.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_photo_4_caab5af251",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-08-07T00:07:52.562Z",
+              "updatedAt": "2021-08-07T00:16:53.433Z",
+              "__v": 0,
+              "id": "610dced8a0854e3db8dc2c4e"
+            },
+            "id": "610dd064a0854e3db8dc2c56"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c57",
+            "__v": 0,
+            "image": {
+              "_id": "610dced8a0854e3db8dc2c4d",
+              "name": "photo_3.jfif",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "photo_3_93aaa88f02",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 19.29,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/photo_3_93aaa88f02.jpg",
+              "provider_metadata": {
+                "public_id": "photo_3_93aaa88f02",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_photo_3.jfif",
+                  "hash": "thumbnail_photo_3_93aaa88f02",
+                  "ext": ".jfif",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 6.45,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/thumbnail_photo_3_93aaa88f02.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_photo_3_93aaa88f02",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-08-07T00:07:52.507Z",
+              "updatedAt": "2021-08-07T00:16:53.433Z",
+              "__v": 0,
+              "id": "610dced8a0854e3db8dc2c4d"
+            },
+            "id": "610dd064a0854e3db8dc2c57"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c58",
+            "__v": 0,
+            "image": {
+              "_id": "610dced8a0854e3db8dc2c4c",
+              "name": "photo_1.jfif",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "photo_1_b0ff55e55b",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 26.1,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/photo_1_b0ff55e55b.jpg",
+              "provider_metadata": {
+                "public_id": "photo_1_b0ff55e55b",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_photo_1.jfif",
+                  "hash": "thumbnail_photo_1_b0ff55e55b",
+                  "ext": ".jfif",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 5.06,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/thumbnail_photo_1_b0ff55e55b.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_photo_1_b0ff55e55b",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-08-07T00:07:52.473Z",
+              "updatedAt": "2021-08-07T00:16:53.433Z",
+              "__v": 0,
+              "id": "610dced8a0854e3db8dc2c4c"
+            },
+            "id": "610dd064a0854e3db8dc2c58"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c59",
+            "__v": 0,
+            "image": {
+              "_id": "610dced8a0854e3db8dc2c4b",
+              "name": "photo_5.jfif",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "photo_5_4d1beb8069",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 36.2,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/photo_5_4d1beb8069.jpg",
+              "provider_metadata": {
+                "public_id": "photo_5_4d1beb8069",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_photo_5.jfif",
+                  "hash": "thumbnail_photo_5_4d1beb8069",
+                  "ext": ".jfif",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 7.77,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/thumbnail_photo_5_4d1beb8069.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_photo_5_4d1beb8069",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-08-07T00:07:52.456Z",
+              "updatedAt": "2021-08-07T00:16:53.433Z",
+              "__v": 0,
+              "id": "610dced8a0854e3db8dc2c4b"
+            },
+            "id": "610dd064a0854e3db8dc2c59"
+          },
+          {
+            "_id": "610dd064a0854e3db8dc2c5a",
+            "__v": 0,
+            "image": {
+              "_id": "610dced8a0854e3db8dc2c4a",
+              "name": "photo_6.jfif",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "photo_6_e32f261dd2",
+              "ext": ".jfif",
+              "mime": "image/jpeg",
+              "size": 15.78,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/photo_6_e32f261dd2.jpg",
+              "provider_metadata": {
+                "public_id": "photo_6_e32f261dd2",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_photo_6.jfif",
+                  "hash": "thumbnail_photo_6_e32f261dd2",
+                  "ext": ".jfif",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.64,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/asocezar/image/upload/v1628294871/thumbnail_photo_6_e32f261dd2.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_photo_6_e32f261dd2",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-08-07T00:07:52.442Z",
+              "updatedAt": "2021-08-07T00:16:53.433Z",
+              "__v": 0,
+              "id": "610dced8a0854e3db8dc2c4a"
+            },
+            "id": "610dd064a0854e3db8dc2c5a"
+          }
+        ],
+        "__v": 1,
+        "metadata": {
+          "background": false,
+          "_id": "610dd28d311247723cf4a210",
+          "name": "gallery",
+          "section_id": "gallery",
+          "__v": 0,
+          "id": "610dd28d311247723cf4a210"
+        },
+        "id": "610dd064a0854e3db8dc2c51"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "610f0a4ccf5cfdb240052fe5",
+        "title": "Another Grid",
+        "description": "Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries. We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with.",
+        "text_grid": [
+          {
+            "_id": "610f0a4ccf5cfdb240052fe8",
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "610f0a4ccf5cfdb240052fe8"
+          },
+          {
+            "_id": "610f0a4ccf5cfdb240052fe9",
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "610f0a4ccf5cfdb240052fe9"
+          },
+          {
+            "_id": "610f0a4ccf5cfdb240052fea",
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "610f0a4ccf5cfdb240052fea"
+          }
+        ],
+        "image_grid": [],
+        "metadata": {
+          "background": false,
+          "_id": "610f0a4dcf5cfdb240052ff2",
+          "name": "Grid-two",
+          "section_id": "grid-two",
+          "__v": 0,
+          "id": "610f0a4dcf5cfdb240052ff2"
+        },
+        "__v": 2,
+        "id": "610f0a4ccf5cfdb240052fe5"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "610f0a4ccf5cfdb240052fe6",
+        "title": "Pricing ",
+        "content": "<h2>PRICING</h2><p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><figure class=\"table\"><table><thead><tr><th>Title 1</th><th>Title 2</th><th>Title 3</th><th>Title 4</th><th>Title 5</th></tr></thead><tbody><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Testando</td></tr></tbody></table></figure>",
+        "metadata": {
+          "background": false,
+          "_id": "610f0a4ccf5cfdb240052feb",
+          "name": "Pricing",
+          "section_id": "pricing",
+          "__v": 0,
+          "id": "610f0a4ccf5cfdb240052feb"
+        },
+        "__v": 1,
+        "id": "610f0a4ccf5cfdb240052fe6"
+      },
+      {
+        "__component": "section.section-two-columns",
+        "_id": "610f0a4ccf5cfdb240052fe7",
+        "title": "January bring us Firefox 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "metadata": {
+          "background": true,
+          "_id": "610f0a4ccf5cfdb240052fec",
+          "name": "Contact",
+          "section_id": "contact",
+          "__v": 0,
+          "id": "610f0a4ccf5cfdb240052fec"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "610db151ed819171f47a0eba",
+          "name": "image1.svg",
+          "alternativeText": "Desenho de pessoas segurando logo de CSS3, HTML5 e JavaScript",
+          "caption": "",
+          "hash": "image1_837c210874",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.31,
+          "url": "https://res.cloudinary.com/asocezar/image/upload/v1628287311/image1_837c210874.svg",
+          "provider_metadata": {
+            "public_id": "image1_837c210874",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1030,
+          "height": 730,
+          "related": [
+            "610f0a4ccf5cfdb240052fe7"
+          ],
+          "createdAt": "2021-08-06T22:01:53.751Z",
+          "updatedAt": "2021-08-07T22:33:49.515Z",
+          "__v": 0,
+          "id": "610db151ed819171f47a0eba"
+        },
+        "id": "610f0a4ccf5cfdb240052fe7"
+      }
+    ],
+    "createdAt": "2021-08-06T22:08:16.736Z",
+    "updatedAt": "2021-08-07T22:33:55.598Z",
+    "__v": 1,
+    "menu": {
+      "open_new_tab": false,
+      "_id": "610ddc34ae560ca7c4928754",
+      "logo_text": "Logo",
+      "menu_link": [
+        {
+          "open_new_tab": false,
+          "_id": "610ddc34ae560ca7c4928755",
+          "link_text": "Intro",
+          "url": "#intro",
+          "__v": 0,
+          "id": "610ddc34ae560ca7c4928755"
+        },
+        {
+          "open_new_tab": false,
+          "_id": "610ddc34ae560ca7c4928756",
+          "link_text": "Grid-one",
+          "url": "#grid-one",
+          "__v": 0,
+          "id": "610ddc34ae560ca7c4928756"
+        },
+        {
+          "open_new_tab": false,
+          "_id": "610ddc34ae560ca7c4928757",
+          "link_text": "Gallery",
+          "url": "#gallery",
+          "__v": 0,
+          "id": "610ddc34ae560ca7c4928757"
+        },
+        {
+          "open_new_tab": false,
+          "_id": "610ddc34ae560ca7c4928758",
+          "link_text": "Grid-two",
+          "url": "#grid-two",
+          "__v": 0,
+          "id": "610ddc34ae560ca7c4928758"
+        },
+        {
+          "open_new_tab": false,
+          "_id": "610f06f1cf5cfdb240052f7c",
+          "link_text": "Pricing",
+          "url": "#pricing",
+          "__v": 0,
+          "id": "610f06f1cf5cfdb240052f7c"
+        },
+        {
+          "open_new_tab": false,
+          "_id": "610f06f1cf5cfdb240052f7d",
+          "link_text": "Contact",
+          "url": "#contact",
+          "__v": 0,
+          "id": "610f06f1cf5cfdb240052f7d"
+        }
+      ],
+      "__v": 1,
+      "logo": {
+        "_id": "610f04e4aabec7a664a81c15",
+        "name": "https://raw.githubusercontent.com/luizomf/strapi_landing_pages/master/public/DADOS/landing-page-2.svg",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "landing_page_2_ba4b024448",
+        "ext": ".svg",
+        "mime": "image/svg+xml",
+        "size": 2.51,
+        "url": "https://res.cloudinary.com/asocezar/image/upload/v1628374242/landing_page_2_ba4b024448.svg",
+        "provider_metadata": {
+          "public_id": "landing_page_2_ba4b024448",
+          "resource_type": "image"
+        },
+        "provider": "cloudinary",
+        "width": 47,
+        "height": 9,
+        "related": [],
+        "createdAt": "2021-08-07T22:10:44.661Z",
+        "updatedAt": "2021-08-07T22:14:34.679Z",
+        "__v": 0,
+        "id": "610f04e4aabec7a664a81c15"
+      },
+      "logo_link": "#home",
+      "id": "610ddc34ae560ca7c4928754"
+    },
+    "footer_text": "<p>Created by Cezar</p>",
+    "id": "610db2d0deedc1785c85339b"
+  }
+]
