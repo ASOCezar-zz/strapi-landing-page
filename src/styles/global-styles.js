@@ -11,11 +11,11 @@ export const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    font-family: 'Open sans', sans-serif;
   }
 
   body {
     font-size: 1.6rem;
-    font-family: 'Open Sans', sans-serif;
   }
 
   p {
@@ -29,6 +29,7 @@ export const GlobalStyles = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     margin-block: ${({ theme }) => theme.font.spacings.large};
   }
 
