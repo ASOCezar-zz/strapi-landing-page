@@ -10,6 +10,7 @@
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook",
     "test": "jest --watch",
+    "test-coverage": "jest --coverage",
     "export": "next export",
     "deploy-static": "npm run build && npm run export"
   },
