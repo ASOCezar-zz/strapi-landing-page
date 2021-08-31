@@ -22,13 +22,13 @@ export const Grid = styled.div`
 `;
 
 export const GridElement = styled.div`
-  ${({ theme }) => css`
+  ${() => css`
     overflow: hidden;
   `}
 `;
 
 export const Image = styled.img`
-  ${({ theme }) => css`
+  ${() => css`
     width: 100%;
     transition: all 0.3s ease-in-out;
     &:hover {

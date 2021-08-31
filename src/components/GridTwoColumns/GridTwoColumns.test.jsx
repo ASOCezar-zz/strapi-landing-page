@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react';
 import { GridTwoColumns } from '.';
 import { renderTheme } from '../../styles/renderTheme';
 

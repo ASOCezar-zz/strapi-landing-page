@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react';
 import { SectionBackground } from '.';
 import { renderTheme } from '../../styles/renderTheme';
 import { theme } from '../../styles/theme';

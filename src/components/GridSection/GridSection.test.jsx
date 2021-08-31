@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react';
 import { GridSection } from '.';
 import { renderTheme } from '../../styles/renderTheme';
 
