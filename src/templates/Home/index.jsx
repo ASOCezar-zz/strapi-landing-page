@@ -1,13 +1,8 @@
-import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import Head from 'next/head';
 
 import { Base } from '../Base';
-import { mockBase } from '../Base/mock';
-import { mapData } from '../../api/map-data';
-import { PageNotFound } from '../PageNotFound';
-import { Loading } from '../Loading';
 import { GridTwoColumns } from '../../components/GridTwoColumns';
 import { GridContent } from '../../components/GridContent';
 import { GridSection } from '../../components/GridSection';
@@ -16,10 +11,6 @@ import { Gallery } from '../../components/Gallery';
 import config from '../../config';
 
 const Home = ({ data }) => {
-  if (!data || !data.length) {
-    return <PageNotFound />;
-  }
-
   const { menu, sections, footerHtml, slug, title } = data[0];
   const { links, text, link, image } = menu;
 
