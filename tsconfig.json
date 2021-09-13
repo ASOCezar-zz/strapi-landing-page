@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/api/map-data.test.js", "src/api/load-pages.js", "src/api/load-pages.test.js"  ],
   "exclude": [
     "node_modules"
   ]
