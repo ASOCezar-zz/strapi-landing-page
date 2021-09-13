@@ -103,7 +103,6 @@ exports[`<GridTwoColumns /> Should render two columns grid component and match w
         class=""
       >
         <img
-          alt="GridTwoColumns"
           class="c7"
           src="assets/images/javascript.svg"
         />

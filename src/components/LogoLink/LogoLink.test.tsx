@@ -13,6 +13,11 @@ describe('<LogoLink />', () => {
     expect(screen.getByAltText(/testing/i)).toHaveAttribute('src', 'image.jpg');
   });
 
+  it('Should a link with target blank', () => {
+    renderTheme(<LogoLink link="#target" text="Testing" image="image.jpg" newTab={true} />);
+    expect(screen.getByAltText(/testing/i)).toHaveAttribute('src', 'image.jpg');
+  });
+
   it('Should match snapshot', () => {
     const { container } = renderTheme(<LogoLink link="#target" text="Testing" image="image.jpg" />);
     expect(container.firstChild).toMatchSnapshot();

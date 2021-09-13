@@ -19,9 +19,7 @@ export type PageData = {
   sections: SectionProps[];
 };
 
-export type SectionProps = (GalleryProps | GridTwoColumnsProps | GridContentProps | GridSectionProps) & {
-  component: string;
-};
+export type SectionProps = GalleryProps | GridTwoColumnsProps | GridContentProps | GridSectionProps;
 
 export type HomeProps = {
   data: PageData[];

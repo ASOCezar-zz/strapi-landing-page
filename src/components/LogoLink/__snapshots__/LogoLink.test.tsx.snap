@@ -35,6 +35,7 @@ exports[`<LogoLink /> Should match snapshot 1`] = `
   <a
     class="c1"
     href="#target"
+    target="_self"
   >
     <img
       alt="Testing"

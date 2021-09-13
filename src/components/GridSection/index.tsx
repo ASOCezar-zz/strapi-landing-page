@@ -15,6 +15,7 @@ export type GridSectionProps = {
   background?: boolean;
   sectionId?: string;
   grid: GridSectionElementProps[];
+  component?: string;
 };
 
 export const GridSection = ({ title, description, grid, background = false, sectionId = '' }: GridSectionProps) => {

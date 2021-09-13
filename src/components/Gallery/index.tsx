@@ -8,10 +8,11 @@ export type GalleryProps = {
   description: string;
   background: boolean;
   sectionId: string;
-  grid: Array<gridProps>;
+  grid: Array<GridGalleryElementsProps>;
+  component?: string;
 };
 
-export type gridProps = {
+export type GridGalleryElementsProps = {
   altText: string;
   image: string;
 };

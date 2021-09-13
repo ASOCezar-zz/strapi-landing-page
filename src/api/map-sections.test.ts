@@ -76,7 +76,7 @@ describe('map-sections', () => {
   });
 
   it('Should render a section grid without image or text', () => {
-    const data = mapSections([
+    mapSections([
       {
         __component: 'section.section-grid',
         image_grid: [

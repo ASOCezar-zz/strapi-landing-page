@@ -1,3 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { GalleryProps, GridGalleryElementsProps } from '../components/Gallery';
+import { GridContentProps } from '../components/GridContent';
+import { GridSectionElementProps, GridSectionProps } from '../components/GridSection';
+import { GridTwoColumnsProps } from '../components/GridTwoColumns';
+
 export const mapSections = (sections = []) => {
   return sections.map((section) => {
     const { text_grid = [{}], image_grid = [{}] } = section;
@@ -23,7 +29,7 @@ export const mapSections = (sections = []) => {
   });
 };
 
-export const mapSectionTwoColumns = (section = {}) => {
+export const mapSectionTwoColumns = (section = {} as any): GridTwoColumnsProps => {
   const {
     __component: component = '',
     title = '',
@@ -41,7 +47,7 @@ export const mapSectionTwoColumns = (section = {}) => {
   };
 };
 
-export const mapSectionContent = (section = {}) => {
+export const mapSectionContent = (section = {} as any): GridContentProps => {
   const {
     __component: component = '',
     title = '',
@@ -58,9 +64,8 @@ export const mapSectionContent = (section = {}) => {
   };
 };
 
-export const mapTextGrid = (section = {}) => {
+export const mapTextGrid = (section = {} as any): GridSectionProps => {
   const {
-    __component: component = '',
     title = '',
     description = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
@@ -73,7 +78,7 @@ export const mapTextGrid = (section = {}) => {
     description,
     background,
     sectionId,
-    grid: grid.map((txt) => {
+    grid: grid.map((txt: any): GridSectionElementProps => {
       const { title = '', description: text = '' } = txt;
       return {
         title,
@@ -83,9 +88,8 @@ export const mapTextGrid = (section = {}) => {
   };
 };
 
-export const mapImageGrid = (section = {}) => {
+export const mapImageGrid = (section = {} as any): GalleryProps => {
   const {
-    __component: component = '',
     title = '',
     description = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
@@ -98,7 +102,7 @@ export const mapImageGrid = (section = {}) => {
     description,
     background,
     sectionId,
-    grid: grid.map((img) => {
+    grid: grid.map((img: any): GridGalleryElementsProps => {
       const { image: { alternativeText: altText = '', url: image = '' } = [{ altText: '', image: '' }] } = img;
       return {
         altText,
