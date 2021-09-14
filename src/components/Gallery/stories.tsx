@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { Gallery } from '.';
+import { Gallery, GalleryProps } from '.';
 import mock from './mock';
 
 export default {
@@ -8,7 +8,7 @@ export default {
   args: mock,
 } as Meta;
 
-export const Template: Story = (args) => {
+export const Template: Story<GalleryProps> = (args) => {
   return (
     <div>
       <Gallery {...args} />
