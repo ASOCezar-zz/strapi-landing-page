@@ -1,18 +1,17 @@
-import { Title } from './styles';
-import PropTypes from 'prop-types';
+import * as Styled from './styles';
 
-export const Heading = ({ children, colorDark = true, as = 'h1', size = 'huge', uppercase = false }) => {
-  return (
-    <Title colorDark={colorDark} as={as} size={size} uppercase={uppercase}>
-      {children}
-    </Title>
-  );
+export type HeadingProps = {
+  children: React.ReactNode;
+  colorDark: boolean;
+  as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+  size: 'small' | 'medium' | 'big' | 'huge';
+  uppercase: boolean;
 };
 
-Heading.propTypes = {
-  children: PropTypes.node.isRequired,
-  colorDark: PropTypes.bool,
-  as: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
-  size: PropTypes.oneOf(['small', 'medium', 'big', 'huge']),
-  uppercase: PropTypes.bool,
+export const Heading = ({ children, colorDark = true, as = 'h1', size = 'huge', uppercase = false }: HeadingProps) => {
+  return (
+    <Styled.Title colorDark={colorDark} as={as} size={size} uppercase={uppercase}>
+      {children}
+    </Styled.Title>
+  );
 };

@@ -1,35 +1,36 @@
-import styled, { css } from 'styled-components';
+import styled, { css, DefaultTheme } from 'styled-components';
+import { HeadingProps } from '.';
 
 const titleSizes = {
-  small: (theme) => css`
+  small: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.medium};
   `,
-  medium: (theme) =>
+  medium: (theme: DefaultTheme) =>
     css`
       font-size: ${theme.font.sizes.large};
     `,
-  big: (theme) =>
+  big: (theme: DefaultTheme) =>
     css`
       font-size: ${theme.font.sizes.xlarge};
     `,
-  huge: (theme) =>
+  huge: (theme: DefaultTheme) =>
     css`
       font-size: ${theme.font.sizes.huge};
       ${mediaFont(theme)}
     `,
 };
 
-const mediaFont = (theme) => css`
+const mediaFont = (theme: DefaultTheme) => css`
   @media ${theme.media.lteMedium} {
     font-size: ${theme.font.sizes.xlarge};
   }
 `;
 
-const titleCase = (uppercase) => css`
+const titleCase = (uppercase: boolean) => css`
   text-transform: ${uppercase ? 'uppercase' : 'none'};
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h1<HeadingProps>`
   ${({ theme, colorDark, size, uppercase }) => css`
     color: ${colorDark ? theme.colors.primaryColor : theme.colors.white};
     ${titleSizes[size](theme)}
