@@ -15,7 +15,7 @@ export const Container = styled.a`
     right: 2rem;
 
     z-index: 5;
-    opacity: 0.6;
+    opacity: 0.7;
 
     border-radius: 50%;
   `}
