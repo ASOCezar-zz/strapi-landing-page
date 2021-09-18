@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
 import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = styled.div`
@@ -21,18 +21,48 @@ export const Grid = styled.div`
   `}
 `;
 
+const bordersAnimation = keyframes`
+  0%{border-radius: 100%; transform: scale(0)};
+  50%{border-radius: 50%; transform: scale(1.5)}
+  100%{border-radius: 0; transform: scale(1)};
+`;
+
+const animateElement = ({ number, show }) =>
+  show &&
+  css`
+    animation: ${bordersAnimation} 500ms ${number}s ease forwards;
+  `;
+
 export const GridElement = styled.div`
-  ${() => css`
+  ${({ number, show }: GridType) => css`
     overflow: hidden;
+      ${animateElement({ number, show })}
+    }
   `}
 `;
 
-export const Image = styled.img`
-  ${() => css`
+const showItem = keyframes`
+  0% {transform: scale(0)};
+  50% {transform: scale(1.5)};
+  100% {transform: scale(1)}
+`;
+
+type GridType = {
+  number: number;
+  show: boolean;
+};
+
+const animateGrid = ({ number, show }: GridType) =>
+  show &&
+  css`
+    animation: ${showItem} 350ms ${number}s ease forwards;
+  `;
+
+export const Image = styled.img<GridType>`
+  ${({ number, show }) => css`
+    transform: scale(0);
     width: 100%;
-    transition: all 0.3s ease-in-out;
-    &:hover {
-      transform: scale(1.2) rotate(10deg);
-    }
+
+    ${animateGrid({ number, show })}
   `}
 `;
